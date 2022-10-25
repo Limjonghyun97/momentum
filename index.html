@@ -8,17 +8,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form id="login-form">
-     <input required maxlength="10" type="text" placeholder="What is your name?">
-     <input type="submit" value = "Log In">
-    </form>
-    <h1 id = "greeting" class="hidden"></h1>
-
     <h2 id="clock">00:00:00</h2>
+
+    <form id="login-form">
+        <input class="logIn_input" required maxlength="10" type="text" placeholder="What is your name?">
+        <input class="logIn_btn" type="submit" value = "Log In">
+    </form>
+       <h1 id = "greeting" class="hidden"></h1>
 
 
     <form id="todo-form">
         <input type="text" placeholder="Write a To Do and Press Enter">
+        <input type="submit" value="입력">
     </form>
     <ul id="todo-list"></ul>
 
@@ -27,5 +28,6 @@
     <script src="js/clack.js"></script>
     <script src="js/todo.js"></script>
     <script src="js/background.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 </html>
