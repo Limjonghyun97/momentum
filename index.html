@@ -8,9 +8,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2 id="clock">00:00:00</h2>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
 
-    <form id="login-form">
+    <h2 id="clock"></h2>
+
+    <form id="login-form" class="hidden">
         <input class="logIn_input" required maxlength="10" type="text" placeholder="What is your name?">
         <input class="logIn_btn" type="submit" value = "Log In">
     </form>
